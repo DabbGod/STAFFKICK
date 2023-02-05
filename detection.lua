@@ -27,7 +27,7 @@ end
 repeat
 	task.wait()
 until game:IsLoaded()
-
+--dddd
 if isfile and writefile and typeof(isfile) == 'function' and typeof(writefile) == 'function' then
 	if not isfile('PromptedDiscordCFCommunityPD.txt') then
 		writefile('PromptedDiscordCFCommunityPD.txt', game:GetService('HttpService'):JSONEncode('hi'))
